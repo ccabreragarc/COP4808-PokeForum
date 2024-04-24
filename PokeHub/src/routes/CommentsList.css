@@ -1,0 +1,62 @@
+/* Styles for the comments list container */
+.comment {
+    margin: 20px auto; /* Center the box and provide margin from all sides */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    width: 60%; /* Adjust width to desired size, e.g., 60% of the parent container */
+    max-width: 800px; /* You can also set a max-width */
+    position: relative; /* Needed for absolute positioning of user ID */
+}
+
+.comment p {
+    font-size: 16px;
+    color: #333;
+    margin: 5px 0 10px;
+    line-height: 1.5;
+}
+
+.comment small {
+    position: absolute; /* Position the user ID absolutely within the .comment container */
+    top: 10px; /* Align it with the top padding of the comment box */
+    left: 10px; /* Align it with the left padding of the comment box */
+    font-size: 12px;
+    color: #007BFF; /* Change the color to make the user ID stand out */
+}
+
+/* Button styling for a more distinctive look */
+.comment button {
+    padding: 8px 16px;
+    margin-right: 10px; /* Separates buttons from each other */
+    background-color: #007BFF; /* A blue background for buttons */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s; /* Smooth transition for background and transform */
+}
+
+.comment button:hover {
+    background-color: #0056b3; /* Darker shade of blue on hover */
+    transform: translateY(-2px); /* Slightly raise the button on hover */
+}
+
+.comment button:active {
+    transform: translateY(1px); /* Push the button down on click */
+}
+
+.comment input[type="text"] {
+    padding: 8px;
+    margin-top: 5px; /* Margin to separate from text */
+    width: calc(100% - 20px); /* Full width minus padding */
+    box-sizing: border-box; /* Includes padding and border in width */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.comment input[type="text"]:focus {
+    border-color: #007BFF;
+    outline: none; /* Remove default focus outline */
+}

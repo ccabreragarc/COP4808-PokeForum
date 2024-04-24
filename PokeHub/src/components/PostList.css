@@ -1,0 +1,72 @@
+.post-container {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.post-title {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.post-content {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+.detailImage {
+    width: 100%;
+    max-width: 800px; /* Maximum width of the image */
+    height: auto;
+    display: block;
+    margin: 30px auto; /* Top and bottom margins are 30px, and left and right margins are auto */
+    /* This will center the image horizontally within its containing element */
+  }
+
+.post-upvotes {
+    font-size: 14px;
+    color: #888;
+    margin-bottom: 10px;
+}
+
+.upvote-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.upvote-button:hover {
+    background-color: #0056b3;
+}
+
+
+.post-container {
+    position: relative;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc; /* Example styling for containers */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Example shadow */
+}
+
+
+
+.post-date {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: #666;
+    font-size: 0.85rem;
+}

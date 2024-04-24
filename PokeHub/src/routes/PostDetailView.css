@@ -1,0 +1,93 @@
+/* General styling for the post detail view, with increased size */
+.postDetail {
+    width: 90%; /* Increased width */
+    margin: 40px auto; /* More vertical margin for more space */
+    padding: 40px; /* More padding for a bigger look */
+    background-color: #f4f4f4;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Enhanced shadow for more depth */
+  }
+  
+  .postDetail h1 {
+    color: #333;
+    font-size: 28px; /* Slightly larger font size for the title */
+  }
+  
+  .detailImage {
+    width: 100%;
+    max-width: 800px; /* Maximum width of the image */
+    height: auto;
+    display: block;
+    margin: 30px auto; /* Top and bottom margins are 30px, and left and right margins are auto */
+    /* This will center the image horizontally within its containing element */
+  }
+  
+  
+  .postDetail p {
+    color: #666;
+    font-size: 18px; /* Slightly larger font size for content */
+    line-height: 1.8; /* Increased line height for better readability */
+  }
+  
+  /* Increased spacing between action buttons and links, and bigger buttons */
+  .actions {
+    margin-top: 30px; /* More space above the actions */
+    display: flex; /* Use flex to manage button spacing */
+    flex-wrap: wrap; /* Wrap buttons if needed */
+    gap: 20px; /* Consistent gap between buttons */
+    justify-content: center; /* This centers the buttons horizontally in the container */
+  }  
+  
+  .actions button,
+  .actions .editLink {
+    padding: 15px 20px; /* Larger padding for bigger buttons */
+    margin: 0; /* Removed margin since we're using gap */
+    margin-bottom: 60px;;
+    border: none;
+    border-radius: 6px; /* Slightly larger border-radius for rounded corners */
+    text-decoration: none;
+    color: #fff;
+    background-color: #007bff;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 16px; /* Larger font size for better visibility */
+  }
+  
+  .actions button:hover,
+  .actions .editLink:hover {
+    background-color: #0056b3;
+  }
+  
+  .deleteButton {
+    background-color: #dc3545;
+  }
+  
+  .deleteButton:hover {
+    background-color: #c82333;
+  }
+  
+  .editLink {
+    background-color: #ffc107;
+    color: #212529;
+  }
+  
+  .editLink:hover {
+    background-color: #e0a800;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .postDetail {
+      width: 95%;
+      padding: 20px;
+    }
+  
+    .actions button,
+    .actions .editLink,
+    .postDetail a {
+      font-size: 14px; /* Smaller font size on smaller screens */
+      padding: 10px 15px; /* Smaller padding on smaller screens */
+    }
+  }
+  

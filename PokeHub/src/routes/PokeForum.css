@@ -1,0 +1,90 @@
+
+
+  
+  /* Styles for buttons and links */
+  button {
+    background-color: #ffcb05; /* Pokémon yellow */
+    color: #3b4cca; /* Pokémon blue */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    font-weight: bold;
+  }
+  
+  button:hover, .navButton:hover {
+    background-color: #3b4cca;
+    color: #ffcb05;
+  }
+  
+  /* Form styling */
+  form {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  input[type="text"], textarea, select {
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  
+  textarea {
+    resize: vertical;
+    height: 100px;
+  }
+  
+  /* Post listing styles */
+  .postList {
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  .postItem {
+    background-color: #f8f8f8;
+    border: 1px solid #e1e1e1;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  
+  .postTitle {
+    font-size: 1.5em;
+    color: #3b4cca;
+  }
+  
+  .postContent {
+    margin-top: 10px;
+    font-size: 1.2em;
+    color: #333;
+  }
+  
+  .postImage {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+  
+  /* Utility styles */
+  .hidden {
+    display: none;
+  }
+  
+  .message {
+    padding: 15px;
+    background-color: #ffcb05;
+    color: #3b4cca;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+  

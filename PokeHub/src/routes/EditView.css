@@ -1,0 +1,19 @@
+.edit-form {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.edit-form input, .edit-form textarea {
+    margin-bottom: 10px;
+    padding: 8px;
+}
+
+.edit-form button {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
