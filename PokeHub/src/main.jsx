@@ -7,21 +7,6 @@ import TopNav from './routes/TopNav.jsx';
 import PokeForum from './routes/PokeForum.jsx';
 import EditView from './routes/EditView.jsx';
 import PostDetailView from './routes/PostDetailView.jsx';
-//import SignIn from './components/SignIn';
-/*
-import CreatePokemon from "./routes/CreatePokemon.jsx";
-import PokemonDetails from './routes/PokemonDetails.jsx';
-import DeletePokemon from "./routes/DeletePokemon.jsx";*/
-
-/*
-        <Route path="/create" element={<CreatePokemon />} />
-        
-        
-        <Route path="/delete/:id" element={<DeletePokemon />} />
-        <Route path="/details/:id" element={<PokemonDetails />} />
-        <Route path="/signin" element={<SignIn />} />
-
-*/
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(

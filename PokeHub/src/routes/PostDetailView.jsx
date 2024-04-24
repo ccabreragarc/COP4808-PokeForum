@@ -2,8 +2,8 @@ import React, { useState, useEffect } from 'react';
 import { useParams, useNavigate, Link } from 'react-router-dom';
 import { supabase } from '../supabaseClient';
 import './PostDetailView.css';
-import CommentForm from './CommentForm'; // Ensure you have this component created
-import CommentsList from './CommentsList'; // Ensure you have this component created
+import CommentForm from './CommentForm'; 
+import CommentsList from './CommentsList'; 
 
 
 const PostDetailView = () => {

@@ -1,6 +1,5 @@
 
-
-  
+ 
   /* Styles for buttons and links */
   button {
     background-color: #ffcb05; /* Pokémon yellow */
@@ -88,3 +87,25 @@
     font-weight: bold;
   }
   
+h1{
+  margin-top: 60px;
+}
+
+@media only screen and (min-width: 600px) {
+  /* No specific changes for this breakpoint */
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  /* No specific changes for this breakpoint */
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  /* No specific changes for this breakpoint */
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  /* No specific changes for this breakpoint */
+}
